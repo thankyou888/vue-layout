@@ -1,1 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import "tailwindcss";
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+@theme {
+  
+    --font-sarabun: 'Sarabun', sans-serif;
+    --font-kanit: 'Kanit', sans-serif;
+
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-kanit);
+  font-weight: 500;
+  line-height: 1.5;
+  @apply py-2.5;
+}
+
+
+@layer base {
+  body {
+    font-family: var(--font-sarabun);
+    font-size: 16px;
+    color: #333;
+  }
+
+  .entry-content {}
+  .entry-tags {}
+  .entry-related-posts {}
+  .entry-title{
+    font-size: var(--text-lg);
+  }
+
+  .section-title {
+    font-family: var(--font-kanit);
+    color: var(--color-black);
+    font-size: var(--text-lg);
+  }
+}               
+
