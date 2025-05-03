@@ -1,11 +1,12 @@
 <template>
-    <section class="flex flex-col md:flex-row gap-4 p-4 rounded-lg shadow-md mb-4">
+    <section class="flex flex-col md:flex-row gap-4 p-4 rounded-lg shadow-md">
         <div class="lg:w-3/4 w-full items-center">
-            <h1 class="text-3xl font-bold mb-4">Welcome to the Blog</h1>
-            <p class="text-gray-600 mb-4">ทางเข้า W88 เว็บตรง ใหม่ล่าสุด W88 ทางเข้า มือถือ และ PC ภาษาไทย
-                ใช้งานได้ไม่โดนบล็อค เว็บสำรอง ww88, w88club, w88ok</p>
+            <h1 class="text-3xl font-bold">Welcome to the Blog</h1>
+            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
 
-            <div class="entry-meta mb-4">
+            <div class="entry-meta">
                 <span class="text-white text-xs bg-sky-700 update-time px-2 py-2">อัพเดท ล่าสุด : 2023-10-01</span>
             </div>
             <div class="flex">
@@ -24,43 +25,76 @@
             </ul>
         </div>
     </section>
-    <section class="flex flex-col gap-4 p-4 rounded-lg shadow-md mb-4">
+    <section class="flex flex-col gap-4 p-4 rounded-lg shadow-md">
         <div class="w-full">
-            <h1 class="text-3xl font-bold mb-4 text-center">คู่มือการใช้งาน Fun88</h1>
+            <h1 class="text-3xl font-bold text-center">คู่มือการใช้งาน Fun88</h1>
         </div>
         <div class="flex flex-col lg:flex-row gap-4">
-            <div class=" bg-sky-300 p-4 rounded-lg shadow-md mb-4">
-                <img class="w-full h-auto object-cover mb-4" src="https://placehold.co/1200x630" alt="Blog Image" />
-                <div class="entry-meta mb-4">
+            <div class=" bg-sky-300 p-4 rounded-lg shadow-md">
+                <img class="w-full h-auto object-cover" src="https://placehold.co/1200x630" alt="Blog Image" />
+                <div class="entry-meta">
                     <span class="text-white text-xs bg-sky-700 update-time px-2 py-2">อัพเดท ล่าสุด : 2023-10-01</span>
                 </div>
             </div>
-            <div class=" bg-sky-300 p-4 rounded-lg shadow-md mb-4">
-                <img class="w-full h-auto object-cover mb-4" src="https://placehold.co/1200x630" alt="Blog Image" />
-                <div class="entry-meta mb-4">
+            <div class=" bg-sky-300 p-4 rounded-lg shadow-md">
+                <img class="w-full h-auto object-cover" src="https://placehold.co/1200x630" alt="Blog Image" />
+                <div class="entry-meta">
                     <span class="text-white text-xs bg-sky-700 update-time px-2 py-2">อัพเดท ล่าสุด : 2023-10-01</span>
                 </div>
             </div>
-            <div class=" bg-sky-300 p-4 rounded-lg shadow-md mb-4">
-                <img class="w-full h-auto object-cover mb-4" src="https://placehold.co/1200x630" alt="Blog Image" />
-                <div class="entry-meta mb-4">
+            <div class=" bg-sky-300 p-4 rounded-lg shadow-md">
+                <img class="w-full h-auto object-cover" src="https://placehold.co/1200x630" alt="Blog Image" />
+                <div class="entry-meta">
                     <span class="text-white text-xs bg-sky-700 update-time px-2 py-2">อัพเดท ล่าสุด : 2023-10-01</span>
                 </div>
             </div>
         </div>
     </section>
-    <section class="flex flex-col lg:flex-row gap-4 p-4 rounded-lg shadow-md mb-4">
+    <section class="flex flex-col lg:flex-row gap-4 p-4 rounded-lg shadow-md">
         <div class="w-full lg:w-1/2 items-center">
-            <h2 class="text-2xl font-bold mb-4">Latest Articles</h2>
-            <p class="text-gray-600 mb-4"> ทางเข้าล่าสุด <a class="bg-sky-700" href="/"> wwwww Click</a>  </p>
-            <p class="text-gray-600 mb-4"> ทางเข้าล่าสุด <a class="bg-sky-700" href="/"> wwwww Click</a>  </p>
-            <p class="text-gray-600 mb-4"> ทางเข้าล่าสุด <a class="bg-sky-700" href="/"> wwwww Click</a>  </p>
+            <h2 class="text-2xl font-bold">Latest Articles</h2>
+            <p class="text-gray-600"> ทางเข้าล่าสุด <a class="bg-sky-700" href="/"> wwwww Click</a> </p>
+            <p class="text-gray-600"> ทางเข้าล่าสุด <a class="bg-sky-700" href="/"> wwwww Click</a> </p>
+            <p class="text-gray-600"> ทางเข้าล่าสุด <a class="bg-sky-700" href="/"> wwwww Click</a> </p>
         </div>
         <div class="w-full lg:w-1/2 items-center">
-            <h2 class="text-2xl font-bold mb-4">About us</h2>
-            <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p class="text-gray-600 mb-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
-            <p class="text-gray-600 mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <h2 class="text-2xl font-bold">About us</h2>
+            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-gray-600">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.</p>
+            <p class="text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                eu fugiat nulla pariatur.</p>
+        </div>
+    </section>
+    <section class="call-action">
+        <div class="bg-blue-500 text-white p-6 rounded-lg shadow-md text-center">
+            <h2 class="text-2xl font-bold">Join Us Today!</h2>
+            <p>Sign up now and get access to exclusive content and updates.</p>
+            <button class="bg-white text-blue-500 font-bold px-6 py-2 rounded hover:bg-gray-100 transition">
+                Get Started
+            </button>
+        </div>
+    </section>
+    <section class="flex flex-col gap-4 p-4 rounded-lg shadow-md">
+        <div class="flex gap-4 items-center">
+            <div class="w-1/3 "><h2 class="text-2xl font-bold text-justify">Latest Blog Posts</h2></div>
+            <div class="sub-description flex-1 text-left">
+                <p class="text-gray-600">ทางเข้า W88 เว็บตรง</p>
+            </div>
+            <div class="w-1/4 text-right">
+                <a href="#" class="text-blue-500 hover:underline">See All</a>   
+            </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-sky-300 p-4 rounded-lg shadow-md">
+                <img class="w-full h-auto object-cover " src="https://placehold.co/1200x630" alt="Blog Image" />
+                <h3 class="text-xl font-bold mb-2">Blog Post Title</h3>
+                <p class="text-gray-600 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="entry-meta ">
+                    <span class="text-white text-xs bg-sky-700 update-time px-2 py-2">อัพเดท ล่าสุด : 2023-10-01</span>
+                </div>
+            </div>
         </div>
     </section>
 </template>
