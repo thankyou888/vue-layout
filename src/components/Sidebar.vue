@@ -8,9 +8,9 @@ export default defineComponent({
 <template>
         <div id="sidebar" class="w-full lg:w-1/4 bg-white p-4 shadow-md rounded-lg">
                 
-                <form class="flex flex-row mb-4">
+                <form class="flex flex-row mb-4" action="/search" method="get">
                     <input type="text" placeholder="Search..." class="w-10/12 p-2 border border-gray-300 rounded" /> 
-                    <button type="submit" class="flex-1 bg-sky-700 text-white p-2 rounded">ค้นหา</button>
+                    <button  type="submit" class="flex-1 bg-sky-700 text-white p-2 rounded">ค้นหา</button>
                 </form>
                 <img class="w-full h-auto object-cover mb-4" src="https://placehold.co/350x300" alt="Sidebar Image" />
                 <ul class="space-y-2 menu">
