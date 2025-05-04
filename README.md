@@ -27,16 +27,13 @@ This project provides a flexible layout system and boilerplate to speed up theme
    ```bash
    git clone https://github.com/your-username/vue-layout.git
    cd vue-layout
-   ```
 
    ```bash 
-  npm install
-   ```
-     ```bash 
-  npx tailwindcss init
-   ```
-     ```bash 
-  npm run dev   # Development mode with watch
-  npm run build # Production build
-   ```
+   npm install
+   npx tailwindcss init
+   
+   ```bash
+   npm run dev   # Development mode with watch
+   npm run build # Production build
+   
 2.  **WordPress Setup (Soon)**
