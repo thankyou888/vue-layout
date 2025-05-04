@@ -1,7 +1,42 @@
-# Vue 3 Blog Layout + Tailwind CSS + Vite
+# 🎨 vue-layout — WordPress Theme with Tailwind CSS + Vue.js
 
-Sample Blog Layout
+🚧 **This project is currently under development (Work in Progress)**  
+Some features may be incomplete, and changes can happen in future releases.
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A modern, responsive WordPress theme built with **Tailwind CSS v4.0** and **Vue.js 3**.  
+This project provides a flexible layout system and boilerplate to speed up theme development.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+> 💖 Sponsored by [fun888mm.com](https://fun888mm.com)
+
+---
+
+## ✨ Features
+
+- ⚡ Tailwind CSS v4.0 with Oxide engine
+- ⚙️ Vue.js 3 integrated for dynamic frontend interactions
+- 💥 Fully compatible with WordPress block editor (Gutenberg)
+- 📱 Responsive, mobile-first layout
+- 🚀 Optimized build with PostCSS and Autoprefixer
+- 🔥 Customizable via `tailwind.config.js` and Vue components
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/vue-layout.git
+   cd vue-layout
+   ```
+
+   ```bash 
+  npm install
+   ```
+     ```bash 
+  npx tailwindcss init
+   ```
+     ```bash 
+  npm run dev   # Development mode with watch
+  npm run build # Production build
+   ```
+2.  **WordPress Setup (Soon)**
