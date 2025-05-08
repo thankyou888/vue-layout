@@ -33,23 +33,20 @@
             <h1 class="text-3xl font-bold text-center">คู่มือการใช้งาน Fun88</h1>
         </div>
         <div class="flex flex-col lg:flex-row gap-4">
-            <div class=" bg-sky-300 p-4 rounded-lg shadow-md">
-                <img class="w-full h-auto object-cover" src="https://placehold.co/1200x630" alt="Blog Image" />
-                <div class="entry-meta">
-                    <span class="text-white text-xs bg-sky-700 update-time px-2 py-2">อัพเดท ล่าสุด : 2023-10-01</span>
-                </div>
+            <div class="  p-4 ">
+                <figure>
+                    <img class="w-full h-auto object-cover" src="https://placehold.co/1200x630" alt="Blog Image" />
+                    <figcaption class="text-center">Blog Title Post 1</figcaption>
+                </figure>
+                <h3 class="text-center">Blog Title Post 1</h3>
             </div>
-            <div class=" bg-sky-300 p-4 rounded-lg shadow-md">
+            <div class="  p-4 ">
                 <img class="w-full h-auto object-cover" src="https://placehold.co/1200x630" alt="Blog Image" />
-                <div class="entry-meta">
-                    <span class="text-white text-xs bg-sky-700 update-time px-2 py-2">อัพเดท ล่าสุด : 2023-10-01</span>
-                </div>
+                <h3 class="text-center">Blog Title Post 2</h3>
             </div>
-            <div class=" bg-sky-300 p-4 rounded-lg shadow-md">
+            <div class="  p-4 ">
                 <img class="w-full h-auto object-cover" src="https://placehold.co/1200x630" alt="Blog Image" />
-                <div class="entry-meta">
-                    <span class="text-white text-xs bg-sky-700 update-time px-2 py-2">อัพเดท ล่าสุด : 2023-10-01</span>
-                </div>
+                <h3 class="text-center">Blog Title Post 3</h3>
             </div>
         </div>
     </section>
@@ -218,7 +215,20 @@
             </div>
             <div class="flex flex-col lg:w-1/3 gap-4">
                 <!-- Loop Post List-->
-                <div class="bg-sky-300 p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
+                <div class=" p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
+                    <div class="entry-image w-1/3">
+                        <img class="w-full object-cover" src="https://placehold.co/1200x630" alt="Thumbnail Image" />
+                    </div>
+                    <div class="w-2/3">
+                        <h2 class="text-xl font-bold mb-2">Thumbnail Title</h2>
+                        <div class="entry-meta ">
+                            <span class="text-white text-xs bg-sky-700 update-time px-2 py-2">อัพเดท ล่าสุด :
+                                2023-10-01</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class=" p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
                     <div class="entry-image w-1/3">
                         <img class="w-full object-cover" src="https://placehold.co/1200x630" alt="Thumbnail Image" />
                     </div>
@@ -227,7 +237,7 @@
                         <p class="text-gray-600">This is a short description for the thumbnail.</p>
                     </div>
                 </div>
-                <div class="bg-sky-300 p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
+                <div class=" p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
                     <div class="entry-image w-1/3">
                         <img class="w-full object-cover" src="https://placehold.co/1200x630" alt="Thumbnail Image" />
                     </div>
@@ -236,7 +246,7 @@
                         <p class="text-gray-600">This is a short description for the thumbnail.</p>
                     </div>
                 </div>
-                <div class="bg-sky-300 p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
+                <div class=" p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
                     <div class="entry-image w-1/3">
                         <img class="w-full object-cover" src="https://placehold.co/1200x630" alt="Thumbnail Image" />
                     </div>
@@ -245,7 +255,7 @@
                         <p class="text-gray-600">This is a short description for the thumbnail.</p>
                     </div>
                 </div>
-                <div class="bg-sky-300 p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
+                <div class=" p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
                     <div class="entry-image w-1/3">
                         <img class="w-full object-cover" src="https://placehold.co/1200x630" alt="Thumbnail Image" />
                     </div>
@@ -254,16 +264,7 @@
                         <p class="text-gray-600">This is a short description for the thumbnail.</p>
                     </div>
                 </div>
-                <div class="bg-sky-300 p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
-                    <div class="entry-image w-1/3">
-                        <img class="w-full object-cover" src="https://placehold.co/1200x630" alt="Thumbnail Image" />
-                    </div>
-                    <div class="w-2/3">
-                        <h2 class="text-xl font-bold mb-2">Thumbnail Title</h2>
-                        <p class="text-gray-600">This is a short description for the thumbnail.</p>
-                    </div>
-                </div>
-                <div class="bg-sky-300 p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
+                <div class=" p-4 rounded-lg shadow-md flex flex-row items-center gap-4">
                     <div class="entry-image w-1/3">
                         <img class="w-full object-cover" src="https://placehold.co/1200x630" alt="Thumbnail Image" />
                     </div>

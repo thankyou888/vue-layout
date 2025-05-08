@@ -1,24 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @import "tailwindcss";
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/preflight.css" layer(base);
 @import "tailwindcss/utilities.css" layer(utilities);
+@plugin "@tailwindcss/typography";
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
 @theme {
-  
-    --font-sarabun: 'Sarabun', sans-serif;
-    --font-kanit: 'Kanit', sans-serif;
-
-
+  --font-sarabun: "Sarabun", sans-serif;
+  --font-kanit: "Kanit", sans-serif;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-kanit);
   font-weight: 500;
   line-height: 1.5;
   @apply py-2.5;
 }
-
 
 @layer base {
   body {
@@ -27,17 +32,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
   }
 
-  .entry-content {}
-  .entry-tags {}
-  .entry-related-posts {}
+  .entry-content {
+  }
+  .entry-tags {
+  }
+  .entry-related-posts {
+  }
   .entry-title {
-    
   }
   .entry-image {
     position: relative;
   }
-  .entry-excerpt{
-    @apply my-4
+  .entry-excerpt {
+    @apply my-4;
   }
 
   .section-title {
@@ -48,16 +55,13 @@ h1, h2, h3, h4, h5, h6 {
 
   table {
     tr {
-       th {
+      th {
         @apply bg-sky-700 text-white font-bold;
       }
-      th , td {
-       @apply border border-gray-300;
+      th,
+      td {
+        @apply border border-gray-300;
       }
     }
   }
-
-
-}               
-
-
+}
