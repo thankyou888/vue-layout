@@ -6,7 +6,7 @@ Some features may be incomplete, and changes can happen in future releases.
 A modern, responsive WordPress theme built with **Tailwind CSS v4.0** and **Vue.js 3**.  
 This project provides a flexible layout system and boilerplate to speed up theme development.
 
-> 💖 Sponsored by [fun888mm.com](https://fun888mm.com)
+> 💖 Sponsored by [fun888mm.com](https://fun888m.co)
 
 ---
 
